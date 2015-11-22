@@ -7,3 +7,5 @@ pixelSize : 10,
 color : Cesium.Color.YELLOW
 }
 });
+
+viewer.dataSources.add(Cesium.KmlDataSource.load('http://maramaki.github.io/20151122osakaa/cesium-starter-app-master/foss4gosaka.kml'));
